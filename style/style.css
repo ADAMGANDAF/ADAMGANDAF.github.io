@@ -482,7 +482,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 2rem;
+  margin: 0 1rem;
   cursor: pointer;
   transition: all 0.4s ease-in-out;
 }
@@ -493,6 +493,9 @@ section {
 }
 .portfolios .portfolio-item .hover-items .icons .icon:hover {
   background-color: var(--color-white);
+}
+.portfolios .portfolio-item .hover-items .icons .icon:hover i {
+  color: var(--color-primary);
 }
 .portfolios .portfolio-item:hover .hover-items {
   opacity: 1;
